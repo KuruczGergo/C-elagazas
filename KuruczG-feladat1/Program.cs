@@ -135,8 +135,24 @@ namespace KuruczG_feladat1
             }
 
 
+            //8. feladat
+            Console.Write("Adjon meg egy karaktert és eldöntöm, hogy szám vagy betű-e");
+            char karakter = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            if (char.IsLetter(karakter))
+            {
+                Console.WriteLine("A karakter betű.");
+            }
+            else if (char.IsDigit(karakter))
+            {
+                Console.WriteLine("A karakter szám.");
+            }
+            else
+            {
+                Console.WriteLine("A karakter sem betű, sem szám.");
+            }
 
-
+            
 
 
 
