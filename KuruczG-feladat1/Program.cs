@@ -152,7 +152,19 @@ namespace KuruczG_feladat1
                 Console.WriteLine("A karakter sem betű, sem szám.");
             }
 
-            
+            //9. feladat
+            Console.Write("Adja meg a jelszót: ");
+            string jelszo = Console.ReadLine();
+            string jojelszo = "titok123";
+            if (jelszo == jojelszo)
+            {
+                Console.WriteLine("Helyes jelszó.");
+            }
+            else
+            {
+                Console.WriteLine("Helytelen jelszó.");
+            }
+
 
 
 
