@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -100,7 +101,26 @@ namespace KuruczG_feladat1
                 Console.WriteLine("Hibás osztályzat!");
             }
 
-
+            //6. feladat
+            int randomszam = 13;
+            Console.Write("Tippeljen egy számra 1 és 20 között: ");
+            int tipp = int.Parse(Console.ReadLine());
+            if (tipp < 1 || tipp > 20)
+            {
+                Console.WriteLine("Hibás tipp!");
+            }
+            else if (tipp == randomszam)
+            {
+                Console.WriteLine("Gratulálok, eltalálta a számot!");
+            }
+            else if (tipp < randomszam)
+            {
+                Console.WriteLine("A tipp kisebb, mint a szám.");
+            }
+            else
+            {
+                Console.WriteLine("A tipp nagyobb, mint a szám.");
+            }
 
 
 
