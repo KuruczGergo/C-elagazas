@@ -122,6 +122,30 @@ namespace KuruczG_feladat1
                 Console.WriteLine("A tipp nagyobb, mint a szám.");
             }
 
+            //7. feladat
+            Console.Write("Adjon meg egy számot és megmondom, hogy egy páros pozitív szam-e: ");
+            int szam2 = int.Parse(Console.ReadLine());
+            if (szam2 > 0 && szam2 % 2 == 0)
+            {
+                Console.WriteLine("A szám egy páros pozitív szám.");
+            }
+            else
+            {
+                Console.WriteLine("A szám nem egy páros pozitív szám.");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
