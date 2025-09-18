@@ -165,6 +165,25 @@ namespace KuruczG_feladat1
                 Console.WriteLine("Helytelen jelszó.");
             }
 
+            //10. feladat
+            Console.Write("Kérem az első számot: ");
+            int elsoSzam = int.Parse(Console.ReadLine());
+            Console.Write("Kérem a második számot: ");
+            int masodikSzam = int.Parse(Console.ReadLine());
+            Console.Write("Kérem a harmadik számot: ");
+            int harmadikSzam = int.Parse(Console.ReadLine());
+            if (elsoSzam >= masodikSzam && elsoSzam >= harmadikSzam)
+            {
+                Console.WriteLine("A legnagyobb szám: " + elsoSzam);
+            }
+            else if (masodikSzam >= elsoSzam && masodikSzam >= harmadikSzam)
+            {
+                Console.WriteLine("A legnagyobb szám: " + masodikSzam);
+            }
+            else
+            {
+                Console.WriteLine("A legnagyobb szám: " + harmadikSzam);
+            }
 
 
 
