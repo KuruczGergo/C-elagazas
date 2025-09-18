@@ -60,9 +60,17 @@ namespace KuruczG_feladat1
                 Console.WriteLine("Hibás hónap szám!");
             }
 
-            
-
-
+            //4. feladat
+            Console.Write("Adja meg az életkorát és eldöndtöm, hogy szavazhat-e: ");
+            int eletkor = int.Parse(Console.ReadLine());
+            if (eletkor >= 18)
+            {
+                Console.WriteLine("Szavazhat.");
+            }
+            else
+            {
+                Console.WriteLine("Nem szavazhat.");
+            }
 
 
 
