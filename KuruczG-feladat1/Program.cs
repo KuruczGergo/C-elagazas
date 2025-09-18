@@ -22,7 +22,20 @@ namespace KuruczG_feladat1
                 Console.WriteLine("A szám páratlan.");
             }
 
-            
+            //2. feladat
+            if (szam > 0)
+            {
+                Console.WriteLine("A szám pozitív.");
+            }
+            else if (szam < 0)
+            {
+                Console.WriteLine("A szám negatív.");
+            }
+            else
+            {
+                Console.WriteLine("A szám nulla.");
+            }
+
              
             
 
