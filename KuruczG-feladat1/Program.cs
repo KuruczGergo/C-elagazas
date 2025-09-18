@@ -72,6 +72,33 @@ namespace KuruczG_feladat1
                 Console.WriteLine("Nem szavazhat.");
             }
 
+            //5. feladat
+            Console.Write("Adjon meg egy osztályzatot (1-5): ");
+            int osztalyzat = int.Parse(Console.ReadLine());
+            if (osztalyzat == 5)
+            {
+                Console.WriteLine("Jeles");
+            }
+            else if (osztalyzat == 4)
+            {
+                Console.WriteLine("Jó");
+            }
+            else if (osztalyzat == 3)
+            {
+                Console.WriteLine("Közepes");
+            }
+            else if (osztalyzat == 2)
+            {
+                Console.WriteLine("Elégséges");
+            }
+            else if (osztalyzat == 1)
+            {
+                Console.WriteLine("Elégtelen");
+            }
+            else
+            {
+                Console.WriteLine("Hibás osztályzat!");
+            }
 
 
 
