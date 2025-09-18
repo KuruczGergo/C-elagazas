@@ -1,0 +1,7 @@
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\bin\Debug\KuruczG-feladat1.exe.config
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\bin\Debug\KuruczG-feladat1.exe
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\bin\Debug\KuruczG-feladat1.pdb
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\obj\Debug\KuruczG-feladat1.csproj.AssemblyReference.cache
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\obj\Debug\KuruczG-feladat1.csproj.CoreCompileInputs.cache
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\obj\Debug\KuruczG-feladat1.exe
+C:\Users\kuruczg\source\repos\KuruczG-feladat1\KuruczG-feladat1\obj\Debug\KuruczG-feladat1.pdb
