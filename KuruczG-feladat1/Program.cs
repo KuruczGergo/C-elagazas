@@ -22,6 +22,18 @@ namespace KuruczG_feladat1
                 Console.WriteLine("A szám páratlan.");
             }
 
+            
+             
+            
+
+
+
+
+
+
+
+
+
         }
     }
 }
